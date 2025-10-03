@@ -6,7 +6,6 @@ import { Certifications } from "@/components/certifications"
 import { Team } from "@/components/team"
 import { Locations } from "@/components/locations"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
       <Team />
       <Locations />
       <Footer />
-      <WhatsAppButton />
     </main>
   )
 }

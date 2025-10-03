@@ -19,11 +19,11 @@ export function Header() {
   }, [])
 
   const navItems = [
-    { label: "Inicio", href: "#inicio" },
-    { label: "Sobre Mí", href: "#sobre-mi" },
-    { label: "Servicios", href: "#servicios" },
-    { label: "Certificaciones", href: "#certificaciones" },
-    { label: "Contacto", href: "#contacto" },
+    { label: "Inicio", href: "/#inicio" },
+    { label: "Sobre Mí", href: "/#sobre-mi" },
+    { label: "Servicios", href: "/#servicios" },
+    { label: "Certificaciones", href: "/#certificaciones" },
+    { label: "Contacto", href: "/#contacto" },
   ]
 
   return (

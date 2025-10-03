@@ -7,7 +7,7 @@ export function Hero() {
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src="/professional-medical-doctor-in-surgical-attire.jpg" alt="Dr. Madrigal" className="w-full h-full object-cover opacity-20" />
+       {/*  <img src="/professional-medical-doctor-in-surgical-attire.jpg" alt="Dr. Madrigal" className="w-full h-full object-cover opacity-20" /> */}
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/90" />
       </div>
 
