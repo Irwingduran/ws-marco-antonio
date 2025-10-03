@@ -87,17 +87,7 @@ export default function BypassGastricoPage() {
                       Agendar Consulta
                     </Link>
                   </Button>
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="px-8 bg-transparent text-white border-white hover:bg-white hover:text-emerald-900"
-                    asChild
-                  >
-                    <Link href="#beneficios">
-                      Conocer Beneficios
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
+             
                 </div>
               </div>
 

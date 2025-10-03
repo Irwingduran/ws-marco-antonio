@@ -29,7 +29,7 @@ export default function MangaGastricaPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-primary">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-primary/90 via-primary/80 to-primary/90">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0" style={{
@@ -77,18 +77,17 @@ export default function MangaGastricaPage() {
                       Agendar Consulta
                     </Link>
                   </Button>
-                  <Button size="lg" variant="outline" className="px-8 bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                    <Link href="#proceso">
-                      Conocer el Proceso
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
+              
                 </div>
               </div>
 
               <div className="relative">
-                <div className="aspect-square rounded-3xl bg-primary-foreground/10 backdrop-blur-sm border-2 border-primary-foreground/20 p-8 flex items-center justify-center">
-                  <Heart className="h-64 w-64 text-primary-foreground/20" />
+                <div className="aspect-square rounded-3xl bg-primary-foreground/10 backdrop-blur-sm border-2 border-primary-foreground/20 overflow-hidden">
+                  <img
+                    src="/servicios/manga-gastrica.jpeg"
+                    alt="Manga Gástrica"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
