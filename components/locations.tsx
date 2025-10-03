@@ -10,16 +10,16 @@ export function Locations() {
       name: "León, Guanajuato",
       address: "Hospital Ángeles León",
       hours: "Lunes a Viernes: 9:00 AM - 6:00 PM",
-      phone: "+52 477 123 4567",
-      whatsapp: "5214771234567",
+      phone: "4771442976",
+      whatsapp: "5214775975958",
       skype: "dr.madrigal.leon",
     },
     cdmx: {
       name: "Ciudad de México",
       address: "Hospital Ángeles Metropolitano",
       hours: "Martes y Jueves: 10:00 AM - 5:00 PM",
-      phone: "+52 55 9876 5432",
-      whatsapp: "5215598765432",
+      phone: "5659785465",
+      whatsapp: "5214775975958",
       skype: "dr.madrigal.cdmx",
     },
   }
@@ -52,33 +52,6 @@ export function Locations() {
             </TabsContent>
           </Tabs>
 
-          {/* Contact Methods */}
-          <div className="mt-16 grid md:grid-cols-3 gap-4">
-            <Button asChild size="lg" className="h-auto py-6 flex-col gap-2">
-              <a href={`tel:${locations.leon.phone}`}>
-                <Phone className="h-6 w-6" />
-                <span className="text-sm">Llamar Ahora</span>
-              </a>
-            </Button>
-
-            <Button asChild size="lg" variant="secondary" className="h-auto py-6 flex-col gap-2">
-              <a
-                href={`https://wa.me/${locations.leon.whatsapp}?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageCircle className="h-6 w-6" />
-                <span className="text-sm">WhatsApp</span>
-              </a>
-            </Button>
-
-            <Button asChild size="lg" variant="outline" className="h-auto py-6 flex-col gap-2 bg-transparent">
-              <a href="#contacto">
-                <Calendar className="h-6 w-6" />
-                <span className="text-sm">Agendar Cita</span>
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </section>
@@ -87,43 +60,43 @@ export function Locations() {
 
 function LocationCard({ location }: { location: any }) {
   return (
-    <Card className="p-8">
+    <Card className="p-8 bg-white border-gray-200">
       <div className="space-y-6">
         <div className="flex items-start gap-4">
-          <MapPin className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
+          <MapPin className="w-6 h-6 text-black flex-shrink-0 mt-1" />
           <div>
-            <h3 className="font-semibold text-xl text-foreground mb-1">{location.name}</h3>
-            <p className="text-muted-foreground">{location.address}</p>
+            <h3 className="font-semibold text-xl text-gray-900 mb-1">{location.name}</h3>
+            <p className="text-gray-600">{location.address}</p>
           </div>
         </div>
 
         <div className="flex items-start gap-4">
-          <Clock className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
+          <Clock className="w-6 h-6 text-black flex-shrink-0 mt-1" />
           <div>
-            <h4 className="font-semibold text-foreground mb-1">Horario de Atención</h4>
-            <p className="text-muted-foreground">{location.hours}</p>
+            <h4 className="font-semibold text-gray-900 mb-1">Horario de Atención</h4>
+            <p className="text-gray-600">{location.hours}</p>
           </div>
         </div>
 
         <div className="flex items-start gap-4">
-          <Phone className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
+          <Phone className="w-6 h-6 text-black flex-shrink-0 mt-1" />
           <div>
-            <h4 className="font-semibold text-foreground mb-1">Teléfono</h4>
-            <a href={`tel:${location.phone}`} className="text-accent hover:underline">
+            <h4 className="font-semibold text-gray-900 mb-1">Teléfono</h4>
+            <a href={`tel:${location.phone}`} className="text-black hover:underline">
               {location.phone}
             </a>
           </div>
         </div>
 
         <div className="flex items-start gap-4">
-          <MessageCircle className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
+          <MessageCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
+            <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
             <a
               href={`https://wa.me/${location.whatsapp}?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-accent hover:underline"
+              className="text-green-600 hover:underline"
             >
               Enviar mensaje
             </a>
