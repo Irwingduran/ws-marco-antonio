@@ -11,39 +11,42 @@ export function Services() {
       title: "Manga Gástrica",
       shortDescription: "Procedimiento laparoscópico que reduce el tamaño del estómago en un 80%",
       icon: "🔬",
-      link: "/servicios/manga-gastrica",
+      link: "/servicios/manga-gastrica" as const,
       hasPage: true,
     },
     {
       title: "Bypass Gástrico",
       shortDescription: "Técnica que modifica el sistema digestivo para reducir la absorción de nutrientes",
       icon: "⚕️",
-      link: "/servicios/bypass-gastrico",
+      link: "/servicios/bypass-gastrico" as const,
       hasPage: true,
     },
     {
       title: "Balón Intragástrico",
       shortDescription: "Procedimiento no quirúrgico temporal para pérdida de peso",
       icon: "🎈",
-      link: "/servicios/balon-intragastrico",
+      link: "/servicios/balon-intragastrico" as const,
       hasPage: true,
     },
     {
       title: "Bariclip",
       shortDescription: "Sistema innovador de clip gástrico ajustable y reversible",
       icon: "🔧",
+      link: undefined,
       hasPage: false,
     },
     {
       title: "Manga Gástrica por Endoscopia",
       shortDescription: "Reducción de estómago sin cirugía mediante técnica endoscópica",
       icon: "🔍",
+      link: undefined,
       hasPage: false,
     },
     {
       title: "Cirugía de Revisión Bariátrica",
       shortDescription: "Corrección o mejora de procedimientos bariátricos previos",
       icon: "🔄",
+      link: undefined,
       hasPage: false,
     },
   ]
@@ -72,7 +75,7 @@ export function Services() {
                 <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-6">{service.shortDescription}</p>
 
-                {service.hasPage && (
+                {service.hasPage && service.link && (
                   <Button asChild variant="default" size="sm" className="w-full">
                     <Link href={service.link}>
                       Conocer más
