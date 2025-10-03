@@ -73,15 +73,18 @@ export function Services() {
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-6">{service.shortDescription}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{service.shortDescription}</p>
 
                 {service.hasPage && service.link && (
-                  <Button asChild variant="default" size="sm" className="w-full">
-                    <Link href={service.link}>
-                      Conocer más
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Link>
-                  </Button>
+                  <>
+                    <p className="text-lg font-bold text-primary mb-4">Desde $70,000 MXN</p>
+                    <Button asChild variant="default" size="sm" className="w-full">
+                      <Link href={service.link}>
+                        Conocer más
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </Link>
+                    </Button>
+                  </>
                 )}
               </Card>
             ))}
