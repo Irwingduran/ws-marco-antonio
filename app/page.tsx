@@ -6,6 +6,7 @@ import { Associations } from "@/components/associations"
 import { Certifications } from "@/components/certifications"
 import { Team } from "@/components/team"
 import { FindoctorCTA } from "@/components/findoctor-cta"
+import { Reviews } from "@/components/reviews"
 import { Locations } from "@/components/locations"
 import { Footer } from "@/components/footer"
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Team />
       <FindoctorCTA />
       <Locations />
+      <Reviews />
       <Footer />
     </main>
   )

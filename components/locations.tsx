@@ -22,7 +22,7 @@ export function Locations() {
       phone: "5659785465",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.cdmx",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3763.37762650414!2d-99.16728292478658!3d19.39608328187554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDIzJzQ1LjkiTiA5OcKwMDknNTMuMCJX!5e0!3m2!1ses!2sgt!4v1759961351917!5m2!1ses!2sgt"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.377626084999!2d-99.16470799999999!3d19.3960833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa7157bbe3b%3A0x78f04607068dadd3!2sDr.%20Marco%20Madrigal%20Tellez%20-%20Bariatra%20en%20CDMX!5e0!3m2!1ses!2sgt!4v1759961929441!5m2!1ses!2sgt"
     },
   }
 
