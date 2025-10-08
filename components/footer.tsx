@@ -21,31 +21,31 @@ export function Footer() {
               <h4 className="font-semibold mb-4">Enlaces Rápidos</h4>
               <nav className="flex flex-col gap-2">
                 <Link
-                  href="#inicio"
+                  href="/#inicio"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Inicio
                 </Link>
                 <Link
-                  href="#sobre-mi"
+                  href="/#sobre-mi"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Sobre Mí
                 </Link>
                 <Link
-                  href="#servicios"
+                  href="/#servicios"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Servicios
                 </Link>
                 <Link
-                  href="#certificaciones"
+                  href="/#certificaciones"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Certificaciones
                 </Link>
                 <Link
-                  href="#contacto"
+                  href="/#contacto"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Contacto
@@ -101,8 +101,7 @@ export function Footer() {
           <div className="pt-8 border-t border-primary-foreground/20">
             <p className="text-xs text-primary-foreground/60 text-center leading-relaxed mb-4">
               <strong>Aviso Médico:</strong> La información proporcionada en este sitio web es solo para fines
-              informativos y educativos. No sustituye el consejo médico profesional, diagnóstico o tratamiento. Siempre
-              consulte a su médico u otro proveedor de atención médica calificado con cualquier pregunta que pueda tener
+              informativos y educativos. Siempre consulte a su médico u otro proveedor de atención médica calificado con cualquier pregunta que pueda tener
               sobre una condición médica.
             </p>
             <p className="text-xs text-primary-foreground/60 text-center">
