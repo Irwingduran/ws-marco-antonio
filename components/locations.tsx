@@ -108,13 +108,13 @@ function LocationCard({ location }: { location: any }) {
         </div>
       </Card>
 
-      <Card className="p-0 overflow-hidden border-gray-200">
+      <Card className="p-0 overflow-hidden border-gray-200 h-[450px]">
         <iframe
           src={location.mapUrl}
           width="100%"
-          height="100%"
-          style={{ border: 0, minHeight: '400px' }}
-          allowFullScreen
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title={`Mapa de ${location.name}`}
