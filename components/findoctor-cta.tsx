@@ -30,7 +30,7 @@ export function FindoctorCTA() {
                 </div>
 
                 <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-foreground">
-                  Encuéntrame en FindDoctor
+                  Encuéntrame en Findoctor
                 </h2>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
