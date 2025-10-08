@@ -10,24 +10,6 @@ export function About() {
       description: "Departamento de Medicina y Nutrición",
     },
     {
-      icon: Hospital,
-      title: "Internado de Pregrado",
-      institution: "Hospital Regional ISSSTE León",
-      description: "Formación práctica en medicina general",
-    },
-    {
-      icon: Building2,
-      title: "Servicio Social Profesional",
-      institution: "UMAPS Cañada de Caracheo",
-      description: "Atención médica comunitaria",
-    },
-    {
-      icon: Stethoscope,
-      title: "Residencia en Cirugía General",
-      institution: "Hospital General de México O.D.",
-      description: "Especialización en cirugía general",
-    },
-    {
       icon: Award,
       title: "Alta Especialidad en Cirugía Endoscópica",
       institution: "Hospital General Dr. Manuel Gea González",

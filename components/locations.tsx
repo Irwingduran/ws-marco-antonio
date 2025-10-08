@@ -13,7 +13,7 @@ export function Locations() {
       phone: "4771442976",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.leon",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d16637.05229589108!2d-101.69828466561414!3d21.15436608762349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA4JzU5LjIiTiAxMDHCsDQxJzE0LjYiVw!5e0!3m2!1ses!2sgt!4v1759961301157!5m2!1ses!2sgt"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.065753151479!2d-101.689969!3d21.1497814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff833f46fe6f%3A0x5fac67e62c0d120e!2sDr.%20Marco%20Antonio%20Madrigal%20T%C3%A9llez%20-%20Cirujano%20Bariatra%20en%20Le%C3%B3n!5e0!3m2!1ses!2sgt!4v1759963912446!5m2!1ses!2sgt"
     },
     cdmx: {
       name: "Ciudad de México",
@@ -123,3 +123,7 @@ function LocationCard({ location }: { location: any }) {
     </div>
   )
 }
+
+
+
+
