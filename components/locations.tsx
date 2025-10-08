@@ -13,6 +13,7 @@ export function Locations() {
       phone: "4771442976",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.leon",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d16637.05229589108!2d-101.69828466561414!3d21.15436608762349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA4JzU5LjIiTiAxMDHCsDQxJzE0LjYiVw!5e0!3m2!1ses!2sgt!4v1759961301157!5m2!1ses!2sgt"
     },
     cdmx: {
       name: "Ciudad de México",
@@ -21,6 +22,7 @@ export function Locations() {
       phone: "5659785465",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.cdmx",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3763.37762650414!2d-99.16728292478658!3d19.39608328187554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDIzJzQ1LjkiTiA5OcKwMDknNTMuMCJX!5e0!3m2!1ses!2sgt!4v1759961351917!5m2!1ses!2sgt"
     },
   }
 
@@ -60,49 +62,64 @@ export function Locations() {
 
 function LocationCard({ location }: { location: any }) {
   return (
-    <Card className="p-8 bg-white border-gray-200">
-      <div className="space-y-6">
-        <div className="flex items-start gap-4">
-          <MapPin className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-          <div>
-            <h3 className="font-semibold text-xl text-gray-900 mb-1">{location.name}</h3>
-            <p className="text-gray-600">{location.address}</p>
+    <div className="grid lg:grid-cols-2 gap-8">
+      <Card className="p-8 bg-white border-gray-200">
+        <div className="space-y-6">
+          <div className="flex items-start gap-4">
+            <MapPin className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="font-semibold text-xl text-gray-900 mb-1">{location.name}</h3>
+              <p className="text-gray-600">{location.address}</p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex items-start gap-4">
-          <Clock className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-1">Horario de Atención</h4>
-            <p className="text-gray-600">{location.hours}</p>
+          <div className="flex items-start gap-4">
+            <Clock className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-1">Horario de Atención</h4>
+              <p className="text-gray-600">{location.hours}</p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex items-start gap-4">
-          <Phone className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-1">Teléfono</h4>
-            <a href={`tel:${location.phone}`} className="text-black hover:underline">
-              {location.phone}
-            </a>
+          <div className="flex items-start gap-4">
+            <Phone className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-1">Teléfono</h4>
+              <a href={`tel:${location.phone}`} className="text-black hover:underline">
+                {location.phone}
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div className="flex items-start gap-4">
-          <MessageCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-            <a
-              href={`https://wa.me/${location.whatsapp}?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-green-600 hover:underline"
-            >
-              Enviar mensaje
-            </a>
+          <div className="flex items-start gap-4">
+            <MessageCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
+              <a
+                href={`https://wa.me/${location.whatsapp}?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-600 hover:underline"
+              >
+                Enviar mensaje
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+
+      <Card className="p-0 overflow-hidden border-gray-200">
+        <iframe
+          src={location.mapUrl}
+          width="100%"
+          height="100%"
+          style={{ border: 0, minHeight: '400px' }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title={`Mapa de ${location.name}`}
+        ></iframe>
+      </Card>
+    </div>
   )
 }
