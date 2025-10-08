@@ -5,6 +5,7 @@ import { Services } from "@/components/services"
 import { Associations } from "@/components/associations"
 import { Certifications } from "@/components/certifications"
 import { Team } from "@/components/team"
+import { FindoctorCTA } from "@/components/findoctor-cta"
 import { Locations } from "@/components/locations"
 import { Footer } from "@/components/footer"
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Associations />
       <Certifications />
       <Team />
+      <FindoctorCTA />
       <Locations />
       <Footer />
     </main>
