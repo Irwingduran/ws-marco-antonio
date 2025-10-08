@@ -453,35 +453,27 @@ export default function BypassGastricoPage() {
               <div className="overflow-x-auto pb-4 hide-scrollbar">
                 <div className="flex gap-6 min-w-max px-4">
                   {[
-                    { url: "https://www.facebook.com/reel/647584317697852", title: "Testimonial 1" },
-                    { url: "https://www.facebook.com/reel/1507415173548770", title: "Testimonial 2" },
-                    { url: "https://www.facebook.com/reel/1099214172084826", title: "Testimonial 3" }
-                  ].map((video, idx) => (
-                    <a
+                    "https://www.facebook.com/reel/647584317697852",
+                    "https://www.facebook.com/reel/1507415173548770",
+                    "https://www.facebook.com/reel/1099214172084826"
+                  ].map((videoUrl, idx) => (
+                    <div
                       key={idx}
-                      href={video.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-shrink-0 group"
+                      className="flex-shrink-0"
                     >
-                      <Card className="overflow-hidden border-2 w-[267px] h-[476px] relative hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 flex items-center justify-center">
-                          <div className="text-center space-y-4">
-                            <div className="w-20 h-20 mx-auto rounded-full bg-white/90 flex items-center justify-center group-hover:bg-white transition-colors">
-                              <svg className="w-10 h-10 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M8 5v14l11-7z"/>
-                              </svg>
-                            </div>
-                            <div className="text-white font-semibold text-lg px-4">
-                              Ver Testimonio {idx + 1}
-                            </div>
-                            <div className="text-white/80 text-sm px-4">
-                              Clic para reproducir en Facebook
-                            </div>
-                          </div>
-                        </div>
+                      <Card className="overflow-hidden border-2 w-[267px] h-[476px] relative hover:shadow-2xl transition-all duration-300">
+                        <iframe
+                          src={`https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoUrl)}&show_text=false&width=267&height=476`}
+                          width="267"
+                          height="476"
+                          style={{ border: 'none', overflow: 'hidden' }}
+                          scrolling="no"
+                          frameBorder="0"
+                          allowFullScreen={true}
+                          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        ></iframe>
                       </Card>
-                    </a>
+                    </div>
                   ))}
                 </div>
               </div>
