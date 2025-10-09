@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, X, MessageCircle } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -61,8 +61,8 @@ export function Header() {
 
           <div className="hidden md:flex items-center gap-4">
             <Button asChild variant="default" size="lg">
-              <Link href="#contacto">
-                <Phone className="mr-2 h-4 w-4" />
+              <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2 h-4 w-4" />
                 Agendar Cita
               </Link>
             </Button>
@@ -93,8 +93,8 @@ export function Header() {
                 </Link>
               ))}
               <Button asChild className="w-full mt-2">
-                <Link href="#contacto" onClick={() => setIsMobileMenuOpen(false)}>
-                  <Phone className="mr-2 h-4 w-4" />
+                <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
+                  <MessageCircle className="mr-2 h-4 w-4" />
                   Agendar Cita
                 </Link>
               </Button>

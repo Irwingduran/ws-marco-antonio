@@ -12,7 +12,7 @@ import {
   TrendingDown,
   Shield,
   Users,
-  Calendar,
+  MessageCircle,
   ArrowRight,
   Scale,
   Activity,
@@ -72,8 +72,8 @@ export default function MangaGastricaPage() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" variant="secondary" className="px-8" asChild>
-                    <Link href="#contacto">
-                      <Calendar className="mr-2 h-5 w-5" />
+                    <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="mr-2 h-5 w-5" />
                       Agendar Consulta
                     </Link>
                   </Button>
@@ -462,8 +462,8 @@ export default function MangaGastricaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8 text-lg" asChild>
-                <Link href="#contacto">
-                  <Calendar className="mr-2 h-5 w-5" />
+                <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5" />
                   Agendar Consulta Gratuita
                 </Link>
               </Button>
