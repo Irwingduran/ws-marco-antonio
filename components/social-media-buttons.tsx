@@ -12,7 +12,7 @@ const SocialMediaButtons: React.FC = () => {
   const socialLinks: SocialLink[] = [
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/5619852072',
+      url: 'https://wa.me/5214775975958',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (
@@ -58,21 +58,21 @@ const SocialMediaButtons: React.FC = () => {
   ];
 
   return (
-    <div className="fixed right-4 bottom-4 z-50 flex flex-col items-end gap-3">
+    <div className="fixed right-4 bottom-4 z-50 flex flex-col items-end gap-2">
       {socialLinks.map((social) => (
         <a
           key={social.name}
           href={social.url}
           target="_blank"
           rel="noopener noreferrer"
-          className={`flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 ${social.bgColor} ${social.hoverColor} rounded-full shadow-lg transition-all duration-300 hover:scale-110 transform`}
+          className={`flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 ${social.bgColor} ${social.hoverColor} rounded-full shadow-lg transition-all duration-300 hover:scale-110 transform`}
           aria-label={`Visitar ${social.name}`}
           title={social.name}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="w-6 h-6 sm:w-7 sm:h-7 text-white"
+            className="w-5 h-5 sm:w-5 sm:h-5 text-white"
             fill="currentColor"
             stroke="currentColor"
             strokeWidth="0.5"

@@ -9,7 +9,7 @@ export function Locations() {
     leon: {
       name: "León, Guanajuato",
       address: "Hospital Ángeles León",
-      hours: "Lunes a Viernes: 9:00 AM - 6:00 PM",
+      hours: "Lunes a Viernes: 9:00 AM - 2:00 PM y 4:00 PM - 8:00 PM | Sábados: 9:00 AM - 2:00 PM",
       phone: "4771442976",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.leon",
@@ -18,7 +18,7 @@ export function Locations() {
     cdmx: {
       name: "Ciudad de México",
       address: "Hospital Ángeles Metropolitano",
-      hours: "Martes y Jueves: 10:00 AM - 5:00 PM",
+      hours: "Lunes a Viernes: 9:00 AM - 2:00 PM y 4:00 PM - 8:00 PM | Sábados: 9:00 AM - 2:00 PM",
       phone: "5659785465",
       whatsapp: "5214775975958",
       skype: "dr.madrigal.cdmx",

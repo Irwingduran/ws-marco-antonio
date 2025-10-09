@@ -65,11 +65,11 @@ export function Footer() {
                   +52 477 597 5958
                 </a>
                 <a
-                  href="mailto:contacto@drmadrigal.com"
+                  href="mailto:info@doctormadrigal.com"
                   className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  contacto@drmadrigal.com
+                  info@doctormadrigal.com
                 </a>
               </div>
 

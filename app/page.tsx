@@ -4,7 +4,6 @@ import { About } from "@/components/about"
 import { Services } from "@/components/services"
 import { Associations } from "@/components/associations"
 import { Certifications } from "@/components/certifications"
-import { Team } from "@/components/team"
 import { FindoctorCTA } from "@/components/findoctor-cta"
 import { Reviews } from "@/components/reviews"
 import { Locations } from "@/components/locations"
@@ -19,7 +18,6 @@ export default function Home() {
       <Services />
       <Associations />
       <Certifications />
-      <Team />
       <FindoctorCTA />
       <Locations />
       <Reviews />
