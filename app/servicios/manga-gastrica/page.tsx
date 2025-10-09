@@ -122,44 +122,23 @@ export default function MangaGastricaPage() {
               </TabsList>
 
               <TabsContent value="laparoscopica" className="space-y-8">
-                <div className="grid md:grid-cols-2 gap-8">
-                  <Card className="p-8">
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl">
-                        <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-foreground">¿Qué es?</h3>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Procedimiento quirúrgico que reduce permanentemente el estómago en aproximadamente un 80%,
-                      creando un estómago en forma de tubo o manga. Se realiza mediante pequeñas incisiones
-                      (laparoscopia), lo que permite una recuperación más rápida.
+                <Card className="p-8">
+                  <div className="prose prose-lg max-w-none">
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      Hoy en día es la cirugía bariátrica más realizada en TODO el mundo, esto debido a la gran
+                      seguridad en pacientes con obesidad leve o severa, la mejora o incluso resolución de enfermedades
+                      asociadas a la obesidad y los excelentes resultados que ofrece en pérdida de peso.
                     </p>
-                  </Card>
-
-                  <Card className="p-8">
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded-xl">
-                        <Activity className="h-6 w-6 text-green-600 dark:text-green-400" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-foreground">¿Cómo Funciona?</h3>
-                    </div>
-                    <ul className="space-y-3 text-muted-foreground">
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" />
-                        <span>Reduce la capacidad del estómago dramáticamente</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" />
-                        <span>Disminuye la producción de grelina (hormona del hambre)</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" />
-                        <span>Genera saciedad temprana con menos alimento</span>
-                      </li>
-                    </ul>
-                  </Card>
-                </div>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      Es un procedimiento de tipo restrictivo, que consiste en retirar del 70 al 80% del estómago,
+                      lo que permite mayor saciedad con menor cantidad de alimento.
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Es un procedimiento que se realiza por laparoscopía (mínima invasión,) tiene una tasa baja de
+                      complicaciones y a menos de 24 horas de haber sido operado, el paciente se va de alta a casa.
+                    </p>
+                  </div>
+                </Card>
 
                 <Card className="p-8 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950/20 dark:to-cyan-950/20 border-blue-200 dark:border-blue-800">
                   <h3 className="text-2xl font-bold text-foreground mb-6">Beneficios Principales</h3>

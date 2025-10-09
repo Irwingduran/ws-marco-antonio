@@ -118,65 +118,24 @@ export default function BypassGastricoPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="p-8 border-2">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-emerald-100 dark:bg-emerald-900/30 p-3 rounded-xl">
-                    <Heart className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-foreground">Doble Mecanismo</h3>
-                </div>
+            <Card className="p-8 mb-12">
+              <div className="prose prose-lg max-w-none">
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  El bypass gástrico es una cirugía que combina dos estrategias:
+                  El bypass gástrico es la cirugía bariátrica más potente, ya que ofrece mayor pérdida de peso que
+                  cualquiera y produce efecto metabólico, lo que permite mejor control de las enfermedades asociadas
+                  a la obesidad.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-foreground">Restricción:</span>
-                      <span className="text-muted-foreground"> Crea una pequeña bolsa gástrica que limita la cantidad de alimento</span>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-foreground">Malabsorción:</span>
-                      <span className="text-muted-foreground"> Desvía el tracto digestivo reduciendo la absorción de calorías y nutrientes</span>
-                    </div>
-                  </li>
-                </ul>
-              </Card>
-
-              <Card className="p-8 border-2">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl">
-                    <Zap className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-foreground">Técnica Laparoscópica</h3>
-                </div>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Se realiza mediante pequeñas incisiones (5-6) de 0.5-1cm utilizando cámara e instrumental especializado:
+                  Es un procedimiento que se considera mixto, ya que produce restricción de la ingesta de alimentos
+                  por la formación de un estómago más pequeño y menos absorción de comida por la modificación del
+                  intestino delgado.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Menor dolor postoperatorio</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Recuperación más rápida</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Menor riesgo de complicaciones</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="h-5 w-5 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Cicatrices mínimas</span>
-                  </li>
-                </ul>
-              </Card>
-            </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Es un procedimiento que se realiza por laparoscopía (mínima invasión,) tiene una tasa baja de
+                  complicaciones y a menos de 24 horas de haber sido operado, el paciente se va de alta a casa.
+                </p>
+              </div>
+            </Card>
 
             <Card className="p-8 bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20 border-emerald-200 dark:border-emerald-800">
               <div className="flex items-start gap-4">

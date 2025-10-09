@@ -121,40 +121,23 @@ export default function BalonIntragastricoPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <Card className="p-8 border-2 border-orange-200 dark:border-orange-800">
-                <div className="bg-orange-100 dark:bg-orange-900/30 p-4 rounded-2xl w-fit mb-4 mx-auto">
-                  <Lightbulb className="h-8 w-8 text-orange-600 dark:text-orange-400" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-3 text-center">¿Qué es?</h3>
-                <p className="text-muted-foreground text-center leading-relaxed">
-                  Un globo de silicona suave que se coloca en el estómago mediante endoscopia y se llena
-                  con solución salina estéril.
+            <Card className="p-8 mb-12">
+              <div className="prose prose-lg max-w-none">
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Es un dispositivo de alta tecnología hecho de silicón de grado médico que se coloca mediante endoscopia
+                  (sin necesidad de cirugía) en el interior del estómago, con una duración que va de los 6 a 12 meses
+                  según el tipo de balón que se utilice.
                 </p>
-              </Card>
-
-              <Card className="p-8 border-2 border-amber-200 dark:border-amber-800">
-                <div className="bg-amber-100 dark:bg-amber-900/30 p-4 rounded-2xl w-fit mb-4 mx-auto">
-                  <Target className="h-8 w-8 text-amber-600 dark:text-amber-400" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-3 text-center">¿Cómo Funciona?</h3>
-                <p className="text-muted-foreground text-center leading-relaxed">
-                  Ocupa espacio en el estómago, creando sensación de saciedad temprana y ayudándote a controlar
-                  las porciones.
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Genera un efecto restrictivo, disminuyendo el apetito y permitiendo que el paciente se sienta satisfecho
+                  con menos alimento. Acompañado de dieta, ejercicio y de nuestro equipo multidisciplinario tendrás una
+                  pérdida de peso efectiva.
                 </p>
-              </Card>
-
-              <Card className="p-8 border-2 border-red-200 dark:border-red-800">
-                <div className="bg-red-100 dark:bg-red-900/30 p-4 rounded-2xl w-fit mb-4 mx-auto">
-                  <Timer className="h-8 w-8 text-red-600 dark:text-red-400" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-3 text-center">Duración</h3>
-                <p className="text-muted-foreground text-center leading-relaxed">
-                  Permanece en el estómago durante 6-12 meses según el tipo de balón, después se retira mediante
-                  endoscopia.
+                <p className="text-muted-foreground leading-relaxed">
+                  Es un procedimiento 100% ambulatorio y reversible, el mismo día de la colocación el paciente se va a su casa.
                 </p>
-              </Card>
-            </div>
+              </div>
+            </Card>
 
             <Card className="p-8 bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/20 dark:to-amber-950/20 border-orange-200 dark:border-orange-800">
               <div className="flex flex-col md:flex-row items-start gap-6">
