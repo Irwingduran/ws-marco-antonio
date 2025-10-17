@@ -19,7 +19,7 @@ export function About() {
       icon: Award,
       title: "Alta Especialidad en Cirugía Bariátrica Endoscópica",
       institution: "Hospital General Dr. Manuel Gea González",
-      description: "Procedimientos bariátricos avanzados",
+      description: "Procedimientos Bariátricos avanzados con y sin cirugía",
     },
     {
       icon: BookOpen,
