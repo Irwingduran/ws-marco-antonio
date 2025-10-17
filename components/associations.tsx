@@ -11,6 +11,7 @@ export function Associations() {
     { name: "Asociación 5", logo: "/logos/logo5.jpeg" },
     { name: "Asociación 6", logo: "/logos/logo6.jpeg" },
     { name: "Asociación 7", logo: "/logos/logo7.jpeg" },
+    { name: "Asociación 8", logo: "/logos/logo7.jpeg" },
   ]
 
   return (
