@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Dr. Marco Antonio Madrigal Téllez - Cirugía Bariátrica",
   description:
-    "Especialista certificado en Cirugía Bariátrica y tratamientos para la obesidad. Cirujano General y Bariatra certificado con enfoque multidisciplinario.",
+    "Especialista con triple certificación en Cirugía Bariátrica y tratamientos para la obesidad. Cirujano General y Bariatra certificado con enfoque multidisciplinario.",
   keywords: "cirugía bariátrica, manga gástrica, bypass gástrico, obesidad, León, CDMX, cirujano bariatra",
   generator: "v0.app",
 }
