@@ -63,9 +63,10 @@ export default function MangaGastricaPage() {
                   <Card className="p-4 bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground/20">
                     <div className="text-3xl font-bold text-primary-foreground">60-70%</div>
                     <div className="text-sm text-primary-foreground/80">Pérdida de peso</div>
+                    <div className="text-sm text-primary-foreground/80">* los resultados pueden varías dependiendo de paciente a paciente</div>
                   </Card>
                   <Card className="p-4 bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground/20">
-                    <div className="text-3xl font-bold text-primary-foreground">1-2 días</div>
+                    <div className="text-3xl font-bold text-primary-foreground">24 horas máximo</div>
                     <div className="text-sm text-primary-foreground/80">Hospitalización</div>
                   </Card>
                 </div>
@@ -134,7 +135,7 @@ export default function MangaGastricaPage() {
                       lo que permite mayor saciedad con menor cantidad de alimento.
                     </p>
                     <p className="text-muted-foreground leading-relaxed">
-                      Es un procedimiento que se realiza por laparoscopía (mínima invasión,) tiene una tasa baja de
+                      Es un procedimiento que se realiza por laparoscopía (mínima invasión) tiene una tasa baja de
                       complicaciones y a menos de 24 horas de haber sido operado, el paciente se va de alta a casa.
                     </p>
                   </div>
