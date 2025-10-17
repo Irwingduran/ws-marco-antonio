@@ -19,7 +19,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-primary-foreground/90 font-light leading-relaxed text-pretty max-w-3xl mx-auto">
-            Especialista certificado en Cirugía Bariátrica y tratamientos para la obesidad y enfermedades metabólicas
+            Especialista con triple certificación en Cirugía Bariátrica y tratamientos para la obesidad y enfermedades metabólicas
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
