@@ -23,7 +23,7 @@ export function Services() {
       title: "Balón Intragástrico",
       shortDescription: "Procedimiento no quirúrgico temporal para pérdida de peso",
       link: "/servicios/balon-intragastrico" as const,
-      hasPage: true,
+      hasPage3: true,
     },
     {
       title: "Método TORe",
@@ -71,6 +71,17 @@ export function Services() {
                 {service.hasPage && service.link && (
                   <>
                     <p className="text-lg font-bold text-primary mb-4">Desde $70,000 MXN</p>
+                    <Button asChild variant="default" size="sm" className="w-full">
+                      <Link href={service.link}>
+                        Conocer más
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </Link>
+                    </Button>
+                  </>
+                )}
+                {service.hasPage3 && service.link && (
+                  <>
+                    <p className="text-lg font-bold text-primary mb-4">Desde $35,000 MXN</p>
                     <Button asChild variant="default" size="sm" className="w-full">
                       <Link href={service.link}>
                         Conocer más
