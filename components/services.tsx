@@ -15,7 +15,7 @@ export function Services() {
     },
     {
       title: "Bypass Gástrico",
-      shortDescription: "Técnica que modifica el sistema digestivo para reducir la absorción de nutrientes",
+      shortDescription: "Técnica que modifica el sistema digestivo para reducir la absorción de calorías",
       link: "/servicios/bypass-gastrico" as const,
       hasPage: true,
     },
@@ -26,8 +26,8 @@ export function Services() {
       hasPage: true,
     },
     {
-      title: "Bariclip",
-      shortDescription: "Sistema innovador de clip gástrico ajustable y reversible",
+      title: "Método TORe",
+      shortDescription: "Corrección de mejora de procedimientos Bariátricos sin cirugía",
       link: undefined,
       hasPage: false,
     },
