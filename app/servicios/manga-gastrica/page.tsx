@@ -56,7 +56,7 @@ export default function MangaGastricaPage() {
                 </h1>
 
                 <p className="text-xl text-primary-foreground/90 leading-relaxed">
-                  Solución definitiva y segura para la obesidad. Reduce el tamaño de tu estómago hasta en un 80% mediante cirugía laparoscópica mínimamente invasiva.
+                  Solución definitiva y segura para la obesidad. Reduce el tamaño de tu estómago hasta en un 80% mediante cirugía laparoscópica (incisiones pequeñas).
                 </p>
 
                 <div className="grid grid-cols-2 gap-4">
@@ -162,7 +162,7 @@ export default function MangaGastricaPage() {
                       <Activity className="h-6 w-6 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-1" />
                       <div>
                         <div className="font-semibold text-foreground mb-1">Mejora Metabólica</div>
-                        <div className="text-sm text-muted-foreground">Control de diabetes, hipertensión y más</div>
+                        <div className="text-sm text-muted-foreground">Revertir hígado graso, hipertensión, apnea del sueño y más</div>
                       </div>
                     </div>
                   </div>
@@ -263,14 +263,14 @@ export default function MangaGastricaPage() {
                 {
                   step: "01",
                   title: "Evaluación Inicial",
-                  description: "Consulta completa con estudios médicos, análisis de laboratorio y valoración psicológica",
+                  description: "Consulta completa con cirujano bariatra y equipo multidisciplinario (nutrición y psicología), análisis de laboratorio y valoración psicológica",
                   icon: FileText,
                   color: "blue"
                 },
                 {
                   step: "02",
                   title: "Preparación",
-                  description: "Plan nutricional pre-operatorio, educación del paciente y preparación quirúrgica",
+                  description: "Plan nutricional pre-operatorio, estudios de laboratorio e imagen, valoración pre-operatoria y endoscopia pre- operaroria",
                   icon: Utensils,
                   color: "green"
                 },
@@ -328,12 +328,11 @@ export default function MangaGastricaPage() {
                 </div>
                 <ul className="space-y-4">
                   {[
-                    "IMC mayor a 40 o mayor a 35 con comorbilidades",
+                    "IMC mayor a 35 o mayor a 30 con enfermedades asociadas a sobrepeso",
                     "Edad entre 18 y 65 años",
                     "Compromiso con cambios de estilo de vida permanentes",
-                    "Sin contraindicaciones quirúrgicas",
-                    "Obesidad de al menos 5 años de evolución",
-                    "Intentos previos de pérdida de peso sin éxito"
+                    "Sin enfermedad por reflujo gastoesofÁgico",
+                    "Intentos previos de pérdida de peso con medicamentos"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" />
@@ -352,10 +351,10 @@ export default function MangaGastricaPage() {
                 </div>
                 <ul className="space-y-4">
                   {[
-                    "IMC entre 30 y 40",
+                    "IMC arriba de 30",
                     "Buscan alternativa no quirúrgica",
                     "Preferencia por procedimiento ambulatorio",
-                    "Mayor temor a cirugía convencional",
+                    "Pacientes que no se sienten listos para una cirugía",
                     "Necesitan recuperación rápida",
                     "Como preparación para cirugía mayor (si es necesario)"
                   ].map((item, idx) => (
@@ -396,7 +395,7 @@ export default function MangaGastricaPage() {
                 Testimonios y Procedimientos Reales
               </h2>
               <p className="text-lg text-muted-foreground">
-                Conoce experiencias reales de pacientes con manga gástrica
+                tienes más dudas sobre manga gástrica ve esta información 
               </p>
             </div>
 
