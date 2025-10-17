@@ -5,6 +5,7 @@ import Image from "next/image"
 export function Associations() {
   const associations = [
     { name: "Asociación 1", logo: "/logos/logo1.jpeg" },
+    { name: "Asociación 2", logo: "/logos/logo2.jpeg" },
     { name: "Asociación 3", logo: "/logos/logo3.jpeg" },
     { name: "Asociación 4", logo: "/logos/logo4.jpeg" },
     { name: "Asociación 5", logo: "/logos/logo5.jpeg" },
