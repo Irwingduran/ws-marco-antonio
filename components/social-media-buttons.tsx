@@ -12,7 +12,7 @@ const SocialMediaButtons: React.FC = () => {
   const socialLinks: SocialLink[] = [
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/4771442976',
+      url: 'https://wa.me/524771442976',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (
