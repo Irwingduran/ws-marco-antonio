@@ -67,11 +67,11 @@ export default function BypassGastricoPage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <Card className="p-4 bg-white/10 backdrop-blur-sm border-white/20">
-                    <div className="text-3xl font-bold text-white">70-80%</div>
+                    <div className="text-3xl font-bold text-white">70-90%</div>
                     <div className="text-sm text-white/80">Pérdida de peso</div>
                   </Card>
                   <Card className="p-4 bg-white/10 backdrop-blur-sm border-white/20">
-                    <div className="text-3xl font-bold text-white">2-3 días</div>
+                    <div className="text-3xl font-bold text-white">24 horas</div>
                     <div className="text-sm text-white/80">Hospitalización</div>
                   </Card>
                   <Card className="p-4 bg-white/10 backdrop-blur-sm border-white/20">
@@ -127,11 +127,15 @@ export default function BypassGastricoPage() {
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Es un procedimiento que se considera mixto, ya que produce restricción de la ingesta de alimentos
-                  por la formación de un estómago más pequeño y menos absorción de comida por la modificación del
-                  intestino delgado.
+                  por la formación de un estómago más pequeño y menos absorción de calorías por la modificación del
+                  tránsito de la comida  a través del intestino delgado.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Es un procedimiento que se realiza por laparoscopía (mínima invasión,) tiene una tasa baja de
+                  A todos los pacientes que se realizan bypass se le hace una endoscopia transoperatoria para asegurarnos 
+                  que no exista alguna fuga.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Es un procedimiento que se realiza por laparoscopía (mínima invasión) tiene una tasa baja de
                   complicaciones y a menos de 24 horas de haber sido operado, el paciente se va de alta a casa.
                 </p>
               </div>
@@ -145,7 +149,7 @@ export default function BypassGastricoPage() {
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-3">Cambios Hormonales Favorables</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Además de la pérdida de peso mecánica, el bypass gástrico produce cambios hormonales importantes
+                    Además de la pérdida de peso, el bypass gástrico produce cambios hormonales importantes
                     que aumentan la saciedad, reducen el apetito y mejoran el metabolismo de la glucosa. Esto explica
                     su extraordinaria efectividad en el control de la diabetes tipo 2.
                   </p>
@@ -204,7 +208,7 @@ export default function BypassGastricoPage() {
                 {
                   icon: Award,
                   title: "Resultados Duraderos",
-                  description: "Mantenimiento de pérdida de peso a 10+ años con seguimiento adecuado",
+                  description: "Mantenimiento de pérdida de peso a +10 años con seguimiento adecuado",
                   color: "amber"
                 }
               ].map((benefit, idx) => (
@@ -239,7 +243,7 @@ export default function BypassGastricoPage() {
                 {
                   phase: "Fase 1",
                   title: "Evaluación Multidisciplinaria",
-                  duration: "2-4 semanas",
+                  duration: "1-2 semanas",
                   items: [
                     "Consulta con cirujano bariatra certificado",
                     "Estudios de laboratorio completos y gabinete",
@@ -269,7 +273,7 @@ export default function BypassGastricoPage() {
                 {
                   phase: "Fase 3",
                   title: "Cirugía y Hospitalización",
-                  duration: "2-3 días",
+                  duration: "1-2 días",
                   items: [
                     "Cirugía laparoscópica (2-3 horas)",
                     "Recuperación en sala especializada",
@@ -360,11 +364,11 @@ export default function BypassGastricoPage() {
               <div className="space-y-4">
                 {[
                   "IMC mayor a 40 (obesidad severa o mórbida)",
-                  "IMC mayor a 35 con enfermedades relacionadas (diabetes, hipertensión, apnea del sueño)",
+                  "IMC mayor a 30 con enfermedades relacionadas (diabetes, hipertensión, apnea del sueño)",
                   "Diabetes tipo 2 difícil de controlar",
                   "Edad entre 18 y 65 años (puede variar según el caso)",
                   "Compromiso con cambios de estilo de vida permanentes",
-                  "Obesidad de al menos 5 años de evolución",
+                  "Valorar beneficio de bypass en pacientes con más de 10 con diabetes",
                   "Intentos previos documentados de pérdida de peso sin éxito duradero",
                   "Disposición para seguimiento médico de por vida"
                 ].map((item, idx) => (
