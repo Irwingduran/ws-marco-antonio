@@ -69,7 +69,7 @@ export default function BalonIntragastricoPage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <Card className="p-4 bg-white/10 backdrop-blur-sm border-white/20">
-                    <div className="text-3xl font-bold text-white">25-35%</div>
+                    <div className="text-3xl font-bold text-white">12-25%</div>
                     <div className="text-sm text-white/80">Pérdida de peso</div>
                   </Card>
                   <Card className="p-4 bg-white/10 backdrop-blur-sm border-white/20">
@@ -129,9 +129,9 @@ export default function BalonIntragastricoPage() {
                   según el tipo de balón que se utilice.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Genera un efecto restrictivo, disminuyendo el apetito y permitiendo que el paciente se sienta satisfecho
-                  con menos alimento. Acompañado de dieta, ejercicio y de nuestro equipo multidisciplinario tendrás una
-                  pérdida de peso efectiva.
+                  Genera un efecto de retraso en el vaciamiento del estómago, haciendo que la comida permanezca más tiempo 
+                  en el estómago lo que permite que el paciente tenga saciedad por mayor tiempo. Acompañado de dieta, ejercicio 
+                  y de nuestro equipo multidisciplinario tendrás una pérdida de peso efectiva.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   Es un procedimiento 100% ambulatorio y reversible, el mismo día de la colocación el paciente se va a su casa.
@@ -161,7 +161,7 @@ export default function BalonIntragastricoPage() {
                     </div>
                     <div className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-orange-600 dark:text-orange-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-muted-foreground">Retorno rápido a actividades normales</span>
+                      <span className="text-muted-foreground">Retorno de 3-4 días</span>
                     </div>
                   </div>
                 </div>
@@ -201,13 +201,13 @@ export default function BalonIntragastricoPage() {
                 {
                   icon: Activity,
                   title: "Recuperación Inmediata",
-                  description: "Regreso a casa el mismo día, actividades normales en 2-3 días",
+                  description: "Regreso a casa el mismo día, actividades normales en 3-4 días",
                   color: "red"
                 },
                 {
                   icon: TrendingDown,
                   title: "Pérdida de Peso Efectiva",
-                  description: "25-35% del exceso de peso durante el período de uso",
+                  description: "De entre 12 a 25",
                   color: "orange"
                 },
                 {
@@ -259,8 +259,8 @@ export default function BalonIntragastricoPage() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    "Consulta médica y evaluación nutricional",
-                    "Endoscopia diagnóstica para verificar condiciones del estómago",
+                    "Evaluación por psicología y nutrición",
+                    "indicaciones médicas y receta para medicamentos previos y posteriores a la colocación",
                     "Estudios de laboratorio básicos",
                     "Educación sobre el procedimiento y expectativas",
                     "Evaluación de motivación y compromiso"
@@ -282,12 +282,13 @@ export default function BalonIntragastricoPage() {
                 </div>
                 <ul className="space-y-3">
                   {[
+                    "Endoscopia diagnóstica para verificar condiciones del estómago",
                     "Ayuno de 8 horas previo al procedimiento",
                     "Sedación consciente o anestesia ligera",
                     "Introducción del balón desinflado vía oral",
                     "Llenado con solución salina estéril (400-700ml)",
                     "Verificación de posición correcta",
-                    "Alta el mismo día (2-3 horas después)"
+                    "Alta el mismo día (1 hora después)"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" />
@@ -306,11 +307,12 @@ export default function BalonIntragastricoPage() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    "Primera semana: adaptación con posibles molestias (náuseas, llenura)",
+                    "Primera semana: adaptación con posibles molestias (Nausea, vómito, cólico y reflujo los primeros 3 días)",
+                    "A partir del día 4 disminución del 80% de los síntomas y después de una semana desaparecen",
                     "Dieta líquida progresiva las primeras semanas",
                     "Medicamentos para reducir molestias iniciales",
-                    "Consultas de seguimiento regulares",
-                    "Apoyo nutricional continuo",
+                    "Consultas de seguimiento estrecho",
+                    "Dieta de adaptación",
                     "Ajustes en estilo de vida y alimentación"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2">
@@ -369,7 +371,7 @@ export default function BalonIntragastricoPage() {
               </h3>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
-                  "IMC entre 27 y 35 (sobrepeso u obesidad moderada)",
+                  "IMC mayor a 27 (sobrepeso u obesidad moderada)",
                   "Personas que buscan una opción no quirúrgica",
                   "Como preparación para cirugía bariátrica mayor",
                   "Necesitan perder peso rápido por razones médicas",
@@ -418,7 +420,7 @@ export default function BalonIntragastricoPage() {
                 Testimonios y Procedimientos Reales
               </h2>
               <p className="text-lg text-muted-foreground">
-                Conoce experiencias reales de pacientes con balón intragástrico
+                Conoce más información sobre balón intragástrico
               </p>
             </div>
 
@@ -496,7 +498,7 @@ export default function BalonIntragastricoPage() {
                 asChild
               >
                 <Link href="/servicios">
-                  Comparar con Otros Procedimientos
+                  Ver Otros Procedimientos
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
