@@ -62,7 +62,7 @@ export function Footer() {
                   className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  +52 477 597 5958
+                  +52 477 144 2976
                 </a>
                 <a
                   href="mailto:info@doctormadrigal.com"
