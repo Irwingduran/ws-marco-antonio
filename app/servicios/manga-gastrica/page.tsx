@@ -382,6 +382,15 @@ export default function MangaGastricaPage() {
                 </div>
               </div>
             </Card>
+
+            <div className="mt-8 text-center">
+              <Button size="lg" variant="default" className="px-8" asChild>
+                <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5" />
+                  Agendar Cita
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -439,6 +448,15 @@ export default function MangaGastricaPage() {
                   Desliza para ver más videos
                 </div>
               </div>
+            </div>
+
+            <div className="mt-12 text-center">
+              <Button size="lg" variant="default" className="px-8" asChild>
+                <Link href="https://wa.me/5214775975958?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5" />
+                  Agendar Cita
+                </Link>
+              </Button>
             </div>
           </div>
         </div>

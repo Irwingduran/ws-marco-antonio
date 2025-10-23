@@ -10,6 +10,12 @@ export function About() {
       description: "Departamento de Medicina y Nutrición",
     },
     {
+      icon: Stethoscope,
+      title: "Especialidad en Cirugía General",
+      institution: "Hospital General de México Dr. Eduardo Liceaga",
+      description: "Formación integral en cirugía general",
+    },
+    {
       icon: Award,
       title: "Alta Especialidad en Cirugía Endoscópica",
       institution: "Hospital General Dr. Manuel Gea González",

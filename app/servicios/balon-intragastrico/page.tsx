@@ -232,6 +232,20 @@ export default function BalonIntragastricoPage() {
                 </Card>
               ))}
             </div>
+
+            <Card className="p-8 mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 border-blue-200 dark:border-blue-800">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl flex-shrink-0">
+                  <Award className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-foreground mb-3">Balón Gástrico Spatz 3</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    El balón gástrico Spatz 3 permite reinflar el balón después de colocado, lo que permite una mayor pérdida de peso que otros balones.
+                  </p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>

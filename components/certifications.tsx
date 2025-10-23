@@ -1,17 +1,37 @@
-import { Award, CheckCircle2, Shield, Star, Globe, Building } from "lucide-react"
+import { Award, CheckCircle2, Shield, Star, Globe } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 export function Certifications() {
   const memberships = [
     {
-      icon: Building,
-      title: "Sociedad Médica del Hospital General de México",
-      description: "Miembro activo de la comunidad médica del Hospital General de México",
+      icon: CheckCircle2,
+      title: "Consejo Mexicano de Gastroenterología, A.C.",
+      description: "Certificación vigente en Endoscopía del Aparato Digestivo | Vigencia: 07/04/2021 - 07/04/2026 | Certificado: 3190",
     },
     {
-      icon: Building,
-      title: "Sociedad Médica del Hospital Ángeles Roma",
-      description: "Participación en actividades académicas y médicas",
+      icon: Shield,
+      title: "Consejo Mexicano de Cirugía General, A.C.",
+      description: "Certificación vigente en Cirugía General | Vigencia: 17/05/2023 - 17/05/2028 | Certificado: C17018218",
+    },
+    {
+      icon: Award,
+      title: "Consejo Mexicano de Cirugía General, A.C.",
+      description: "Certificación vigente en Cirugía Bariátrica | Vigencia: 01/12/2024 - 01/12/2029 | Certificado: CB190008",
+    },
+    {
+      icon: CheckCircle2,
+      title: "CONACEM - Endoscopía del Aparato Digestivo",
+      description: "Médico Especialista Certificado | Vigencia: 07/04/2021 - 07/04/2026 | Certificado: 3190",
+    },
+    {
+      icon: Award,
+      title: "CONACEM - Cirugía Bariátrica",
+      description: "Médico Especialista Certificado | Vigencia: 30/03/2019 - 30/03/2024 | Certificado: B19000819",
+    },
+    {
+      icon: Shield,
+      title: "CONACEM - Cirugía General",
+      description: "Médico Especialista Certificado | Vigencia: 26/05/2018 - 26/05/2023 | Certificado: C17018218",
     },
     {
       icon: Award,
@@ -37,6 +57,11 @@ export function Certifications() {
       icon: CheckCircle2,
       title: "American College of Surgeons",
       description: "Miembro del prestigioso colegio americano de cirujanos",
+    },
+    {
+      icon: Globe,
+      title: "AMEB - Asociación Mundial de Educadores en Belleza",
+      description: "Miembro de la asociación internacional dedicada a la educación en estética y belleza",
     },
   ]
 
