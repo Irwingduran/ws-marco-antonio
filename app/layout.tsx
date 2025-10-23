@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   description:
     "Especialista con triple certificación en Cirugía Bariátrica y tratamientos para la obesidad. Cirujano General y Bariatra certificado con enfoque multidisciplinario.",
   keywords: "cirugía bariátrica, manga gástrica, bypass gástrico, obesidad, León, CDMX, cirujano bariatra",
-  generator: "v0.app",
+  icons: {
+  icon: [
+    { url: '/logo/logo.png', type: 'image/x-icon' },
+  ],
+},
 }
 
 export default function RootLayout({
