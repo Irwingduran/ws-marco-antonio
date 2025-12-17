@@ -104,7 +104,7 @@ export function Certifications() {
           <div className="mt-12 text-center">
             <Card className="inline-block p-6 bg-secondary/50">
               <p className="text-sm text-muted-foreground mb-2">Cédula Profesional</p>
-              <p className="text-2xl font-bold text-foreground">4452613</p>
+              <p className="text-2xl font-bold text-foreground">08718565</p>
             </Card>
           </div>
         </div>
