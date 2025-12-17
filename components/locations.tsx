@@ -8,7 +8,7 @@ export function Locations() {
   const locations = {
     leon: {
       name: "León, Guanajuato",
-      address: "Hospital Ángeles León",
+      address: "Médica Campestre Torre 3, Piso 5 Consltorio 510",
       hours: "Lunes a Viernes: 9:00 AM - 2:00 PM y 4:00 PM - 8:00 PM | Sábados: 9:00 AM - 2:00 PM",
       phone: "4771442976",
       whatsapp: "5214775975958",
@@ -17,7 +17,7 @@ export function Locations() {
     },
     cdmx: {
       name: "Ciudad de México",
-      address: "Hospital Ángeles Metropolitano",
+      address: "Hospital San Angel Inn del Valle, Piso 4 Consultorio 408",
       hours: "Lunes a Viernes: 9:00 AM - 2:00 PM y 4:00 PM - 8:00 PM | Sábados: 9:00 AM - 2:00 PM",
       phone: "5659785465",
       whatsapp: "5214775975958",
